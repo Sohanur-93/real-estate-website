@@ -44,11 +44,11 @@ const Contact = () => {
           {/* Name Input */}
           <div className='w-full md:w-1/2 text-left'>
             Your Name
-            <input type="text" placeholder='Your Name' name='Name' className='w-full border border-gray-300 rounded py-3 px-4 mt-2' required />
+            <input type="text" placeholder='Your Name' name='Name' className='w-full border border-gray-300 rounded py-3 px-4 mt-2 focus:outline-none' required />
           </div>
           {/* Email Input */}
           <div className='w-full md:w-1/2 md:pl-4 text-left '>Your Email
-            <input type="email" placeholder='Your Email' name='Email' className='w-full border border-gray-300 rounded py-3 px-4 mt-2 ' required />
+            <input type="email" placeholder='Your Email' name='Email' className='w-full border border-gray-300 rounded py-3 px-4 mt-2 focus:outline-none' required />
           </div>
 
         </div>
@@ -56,7 +56,7 @@ const Contact = () => {
         {/* Message TextArea */}
         <div className=' my-6 text-left'>
           Message
-          <textarea className='w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none' name="Message" placeholder='Message' required></textarea>
+          <textarea className='w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none focus:outline-none' name="Message" placeholder='Message' required></textarea>
         </div>
 
         {/* Submit Button */}
